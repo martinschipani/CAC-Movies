@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #9F3647;
+}
+footer{
+    background-color: #9F3647;
+}
+body{
+    background-image: url(../img/fondo_registro1.jpg);
+    background-repeat: repeat;
+}
+.cajaRegistro{
+    padding: 70px;
+    margin: 50px 550px;
+    background-color: #2A2A2A;
+    border-radius: 5px;
+}
+input{
+    background-color: #333333;
+    border-color: #9F3647;
+    border-radius: 10px;
+}
+.boton{
+    background-color: #9F3647;
+    border-radius: 5px;
+}

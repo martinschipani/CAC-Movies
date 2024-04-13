@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #9F3647;
+}
+footer {
+    background-color: #9F3647;
+}
+#registro{
+    background-image: url(../img/mujer-viendo-series-television-peliculas-traves-servicio-transmision-casa_746318-826.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}

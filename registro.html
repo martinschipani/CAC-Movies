@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos/registro.css">
+    <link rel="icon" href="img/arcticons--jiocinema.png">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li> <a href="index.html"><img src="img/arcticons--jiocinema.png" alt="Icono de la pagina" width="30em" id="iconoPrincipal">CAC-Movies</a></li>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="inicio.html">Iniciar Sesión</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="cajaRegistro">
+            <h1>Resgistro</h1>
+            <form action="registrar_usuario.py" method="post">
+                <label for="nombre"></label>
+                <input type="text" id="nombre" placeholder="Nombre" required>
+                <label for="apellido"></label>
+                <input type="text" id="apellido" placeholder="Apellido" required>
+                <label for="email"></label>
+                <input type="email" id="email" placeholder="Email" required>
+                <label for="contraseña"></label>
+                <input type="password" id="contraseña" placeholder="Contraseña" required>
+                <label for="fechaDeNacimiento"></label>
+                <input type="date" required>
+                <label for="pais"></label>
+                <select id="pais" required>
+                    <option value="">País</option>
+                    <option value="ar">Argentina</option>
+                    <option value="bol">Bolivia</option>
+                    <option value="br">Brasil</option>
+                    <option value="ch">Chile</option>
+                    <option value="co">Colombia</option>
+                    <option value="ec">Ecuador</option>
+                    <option value="py">Paraguay</option>
+                    <option value="pe">Perú</option>
+                    <option value="uy">Uruguay</option>
+                    <option value="ve">Venezuela</option>
+                </select>
+                <div>
+                    <input type="checkbox"  required >
+                    <h2>Acepto términos y condiciones</h2>
+                </div>
+                <input type="submit" value="Registarse" class="boton">
+            </form>
+            <a href="">¿Necesitas ayuda?</a>
+        </section>
+    </main>
+    <footer>
+        <table>
+            <tr>
+
+                <td><a href="" target="_blank">Términos y condiciones</a></td>
+                <td><a href="" target="_blank">Preguntas frecuentes</a></td>
+                <td><a href="" target="_blank">Ayuda</a></td>
+                <td><a href="" target="_blank">Administrador peliculas</a></td>
+            </tr>
+        </table>
+    </footer>
+</body>
+</html>
