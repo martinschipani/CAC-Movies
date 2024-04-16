@@ -10,27 +10,27 @@
 <body>
     <nav>
         <ul>
-            <li> <a href="index.html"><img src="img/arcticons--jiocinema.png" alt="Icono de la pagina" width="30em" id="iconoPrincipal">CAC-Movies</a></li>
+            <li> <a href="index.html"><img src="img/icono_blanco.png" alt="Icono de la pagina" width="30em" id="iconoPrincipal">CAC-Movies</a></li>
             <li><a href="index.html">Inicio</a></li>
             <li><a href="inicio.html">Iniciar Sesión</a></li>
         </ul>
     </nav>
     <main>
         <section class="cajaRegistro">
-            <h1>Resgistro</h1>
+            <h1>Registro</h1>
             <form action="registrar_usuario.py" method="post">
                 <label for="nombre"></label>
-                <input type="text" id="nombre" placeholder="Nombre" required>
+                <input type="text" id="nombre" placeholder="Nombre" required class="datos">
                 <label for="apellido"></label>
-                <input type="text" id="apellido" placeholder="Apellido" required>
+                <input type="text" id="apellido" placeholder="Apellido" required class="datos">
                 <label for="email"></label>
-                <input type="email" id="email" placeholder="Email" required>
+                <input type="email" id="email" placeholder="Email" required class="datos">
                 <label for="contraseña"></label>
-                <input type="password" id="contraseña" placeholder="Contraseña" required>
+                <input type="password" id="contraseña" placeholder="Contraseña" required class="datos">
                 <label for="fechaDeNacimiento"></label>
-                <input type="date" required>
+                <input type="date" required class="datos">
                 <label for="pais"></label>
-                <select id="pais" required>
+                <select id="pais" required class="datos">
                     <option value="">País</option>
                     <option value="ar">Argentina</option>
                     <option value="bol">Bolivia</option>
@@ -44,8 +44,8 @@
                     <option value="ve">Venezuela</option>
                 </select>
                 <div>
-                    <input type="checkbox"  required >
-                    <h2>Acepto términos y condiciones</h2>
+                    <input type="checkbox"  required  class="checkbox">
+                    <h2 class="checkbox">Acepto términos y condiciones</h2>
                 </div>
                 <input type="submit" value="Registarse" class="boton">
             </form>
@@ -55,11 +55,10 @@
     <footer>
         <table>
             <tr>
-
-                <td><a href="" target="_blank">Términos y condiciones</a></td>
-                <td><a href="" target="_blank">Preguntas frecuentes</a></td>
-                <td><a href="" target="_blank">Ayuda</a></td>
-                <td><a href="" target="_blank">Administrador peliculas</a></td>
+                <td><a href="" target="_blank" class="textoFooter">Términos y condiciones</a></td>
+                <td><a href="" target="_blank" class="textoFooter">Preguntas frecuentes</a></td>
+                <td><a href="" target="_blank" class="textoFooter">Ayuda</a></td>
+                <td><a href="" target="_blank" class="textoFooter">Administrador peliculas</a></td>
             </tr>
         </table>
     </footer>
