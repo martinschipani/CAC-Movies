@@ -4,25 +4,19 @@ Este repositorio contiene la solución al trabajo práctico integrador del curso
 
 ## Descripción del Trabajo Práctico
 
-El objetivo del trabajo práctico fue replicar la estructura y funcionalidades de la siguiente página web utilizando los conocimientos adquiridos en clase hasta el momento:
+El objetivo del trabajo práctico es replicar la estructura y funcionalidades de la siguiente página web utilizando los conocimientos adquiridos en clase hasta el momento:
 
 [https://giselemilagros88.github.io/cac_movies_javaphp/](https://giselemilagros88.github.io/cac_movies_javaphp/)
 
-Se permitió utilizar código nativo o Bootstrap para lograr la reproducción de la página.
+Se permite utilizar código nativo o Bootstrap para lograr la reproducción de la página.
 
 ## Entrega
 
 La entrega del trabajo se realizó a través de la siguiente plataforma:
 
-- **Link de la entrega:** [Aquí va el enlace al trabajo alojado](#)
+- **github-pages:** [https://pages.github.com/](https://pages.github.com/)
 
-Los alumnos tenían la opción de alojar su trabajo en GitHub Pages, un servidor gratuito como [000webhost](https://www.000webhost.com/), o cualquier otra herramienta de alojamiento disponible.
-
-## Tutorial
-
-Para aquellos que necesitan ayuda para publicar la pre-entrega en el aula virtual, se proporcionó el siguiente tutorial:
-
-- **Tutorial de Publicación en el Aula Virtual:** [Enlace al video tutorial](#)
+Los alumnos tendran la opción de alojar su trabajo en GitHub Pages, un servidor gratuito como [000webhost](https://www.000webhost.com/), o cualquier otra herramienta de alojamiento disponible.
 
 ## Notas
 
